@@ -1,0 +1,42 @@
+package modals;
+
+public class Teacher extends Student{
+	
+	private String teacherId;
+	private String name;
+	private String subject;
+	private int phoneNumber;
+	private String email;
+	public String getteacherId() {
+		return teacherId;
+	}
+	public void setteacherId(String teacherId) {
+		this.teacherId = teacherId;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getSubject() {
+		return subject;
+	}
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+	public int getPhoneNumber() {
+		return phoneNumber;
+	}
+	public void setPhoneNumber(int phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
+	
+}
